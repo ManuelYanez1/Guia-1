@@ -1,1 +1,18 @@
-# Guia 1
+// Escriba un programa que defina una variable, la edad, y solicite al usuario que ingrese su edad. Luego,
+// el programa deberia imprimir el mensaje “Tienes edad suficiente para votar” si el usuario tiene 18 años
+// o mas, y el mensaje “No tienes edad suficiente para votar” si el usuario es menor de 18 a˜nos.
+
+use std::io;
+
+fn main() {
+
+  println!("Escribe tu edad:");
+  let mut edad = String::new();
+  io::stdin().read_line(&mut nombre).expect("Fallo de texto");
+
+  if edad > 18 {
+    println!("Tienes edad suficiente para votar");
+  } else {
+    println!("No tienes edad suficiente para votar");
+  }
+}
