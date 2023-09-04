@@ -1,3 +1,12 @@
 // Escriba un programa que defina una variable, un contador, y lo inicialice en 10. Luego, el programa
-// deberia imprimir los numeros del 10 al 0, uno por l´ınea.
+// deberia imprimir los numeros del 10 al 0, uno por linea.
 
+fn main() {
+
+  let mut numero = 10;
+
+  for numero >= 0 {
+    println!("numero {}", numero);
+    numero = numero-1;
+  }
+}
