@@ -1,4 +1,4 @@
-// Escriba un programa que defina una variable, la edad, y solicite al usuario que ingrese su edad. Luego,
+E// Escriba un programa que defina una variable, la edad, y solicite al usuario que ingrese su edad. Luego,
 // el programa deberia imprimir el mensaje “Tienes edad suficiente para votar” si el usuario tiene 18 años
 // o mas, y el mensaje “No tienes edad suficiente para votar” si el usuario es menor de 18 a˜nos.
 
