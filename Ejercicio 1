@@ -1,0 +1,9 @@
+// Escriba un programa que defina dos variables, x e y, e imprima su suma.
+
+fn main() {
+
+  let a = 5;
+  let b = 8;
+
+  println!("La suma de {} y {} da como resultado {}", a, b, a+b);
+}
