@@ -8,7 +8,7 @@ fn main() {
 
   println!("Escriba un numero:");
   let mut numero = String::new();
-  io::stdin().read_line(&mut nombre).expect("Fallo de texto");
+  io::stdin().read_line(&mut numero).expect("Fallo de texto");
 
   if numero%2 == 0 {
     println!("El numero {} es par", numero);
