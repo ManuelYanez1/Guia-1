@@ -1,0 +1,12 @@
+// Escriba un programa que defina una variable, un contador, y lo inicialice a 0. Luego, el programa
+// deberia imprimir los numeros del 0 al 9, uno por linea.
+
+fn main() {
+
+  let mut numero = 0;
+
+  for numero < 10 {
+    println!("numero {}", numero);
+    numero = numero+1;
+  }
+}
