@@ -8,7 +8,7 @@ fn main() {
 
   println!("Escribe tu edad:");
   let mut edad = String::new();
-  io::stdin().read_line(&mut nombre).expect("Fallo de texto");
+  io::stdin().read_line(&mut edad).expect("Fallo de texto");
 
   if edad > 18 {
     println!("Tienes edad suficiente para votar");
