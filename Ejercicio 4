@@ -2,3 +2,17 @@
 // Luego, el programa deberia imprimir el mensaje “El numero es par” si el numero es par, y el mensaje
 // “El numero es impar” si el numero es impar.
 
+use std::io;
+
+fn main() {
+
+  println!("Escriba un numero:");
+  let mut numero = String::new();
+  io::stdin().read_line(&mut nombre).expect("Fallo de texto");
+
+  if numero%2 == 0 {
+    println!("El numero {} es par", numero);
+  } else {
+    println!("El numero {} es impar", numero);
+  }
+}
