@@ -1,0 +1,14 @@
+// Escriba un programa que defina una variable, un nombre, y le pida al usuario que ingrese su nombre.
+// Luego, el programa deberia imprimir el nombre que ingreso el usuario.
+
+use std::io;
+
+fn main() {
+
+  let mut nombre = String::new();
+  println!("Escribe tu nombre: ");
+
+  io::stdin().read_line(&mut nombre).expect("Fallo de texto");
+
+  println!("Tu nombre es {}", nombre);
+}
