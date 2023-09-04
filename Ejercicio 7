@@ -1,3 +1,17 @@
 // Escriba un programa que defina una variable, un numero, y solicite al usuario que ingrese un numero.
 // Luego, el programa deberia imprimir el factorial del numero.
 
+use std::io;
+
+fn main() {
+
+  println!("Escriba un numero:");
+  let mut numero = String::new();
+  io::stdin().read_line(&mut numero).expect("Fallo de texto");
+
+  let mut factorial = 1;
+  for i in (0..numero).rev() {
+    factorial*= i+1;
+  }
+  println!("El factorial de {} es: {}", numero, factorial);
+}
