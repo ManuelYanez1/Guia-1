@@ -1,0 +1,4 @@
+// Escriba un programa que defina una variable, un numero, y solicite al usuario que ingrese un numero.
+// Luego, el programa deberia imprimir el mensaje “El numero es par” si el numero es par, y el mensaje
+// “El numero es impar” si el numero es impar.
+
